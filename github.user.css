@@ -4229,3 +4229,15 @@ regexp('https?://((developer|gist).)?github.com/.*') {
     color: var(--orange) !important;
   }
 }
+
+// fix Gitako
+.search-input {
+    border-color: var(--base-1) !important;
+}
+
+.gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .node-item,
+.access-token-input,
+.toggle-shortcut-input,
+.search-input {
+    background-color: var(--base-4) !important;
+}
